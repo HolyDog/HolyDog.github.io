@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+/*상단 바*/
+.TopBar {
+  z-index: 1000;
+  position: fixed;
+  margin-top: 0px;
+
+  width: 1920px;
+  height: 75px;
+  background-color: #32149f;
+}
+/*상단 바 텍스트*/
+.text0 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 40px;
+  font-weight: Bold;
+  color: #f0f0f0;
+  text-align: left;
+  margin-left: 28px;
+  margin-top: 16px;
+}
+
+/*설명 텍스트*/
+.text1 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
+  line-height: 175%;
+  color: #f0f0f0;
+  word-break: keep-all;
+
+  animation: TextVFX 0.75s ease-out 0s 1 alternate forwards;
+}
+
+/*제목 텍스트*/
+.text2 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #f0f0f0;
+  word-break: keep-all;
+
+  animation: TextVFX 0.75s ease-out 0s 1 alternate forwards;
+}
+
+/*부제 텍스트*/
+.text3 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #f0f0f0;
+  word-break: keep-all;
+
+  animation: TextVFX 0.75s ease-out 0s 1 alternate forwards;
+}
+
+/*지표 텍스트*/
+.text4 {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 15px;
+  font-weight: medium;
+  line-height: 18px;
+  color: #f0f0f0;
+  word-break: keep-all;
+
+  animation: TextVFX 0.75s ease-out 0s 1 alternate forwards;
+}
+
+/*배경 이미지 배치*/
+.Img_Background {
+  z-index: 0;
+  position: absolute;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*콘텐츠 산업에서 생성형 AI 이용 경험*/
+.textbox0 {
+  z-index: 1;
+  position: absolute;
+  margin-top: 1370px;
+  margin-left: 1150px;
+  width: 385px;
+  height: 28px;
+}
+
+/*제목 구분 박스*/
+.headerbox {
+  z-index: 1;
+  position: absolute;
+  width: 10px;
+  height: 29px;
+  background-color: #f0f0f0;
+
+  animation: TextVFX 0.75s ease-out 0s 1 alternate forwards;
+}
+
+/*그래프0 오퍼시티 조절*/
+.graph0 {
+  position: absolute;
+  margin-top: 1925px;
+  margin-left: 980px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+/*그래프 호버 상태*/
+.graph0:hover {
+  opacity: 1;
+}
+
+.graph1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 3000px;
+  margin-left: 350px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph1:hover {
+  opacity: 1;
+}
+
+.graph2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 3000px;
+  margin-left: 1000px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph2:hover {
+  opacity: 1;
+}
+
+.graph3 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 4600px;
+  margin-left: 420px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph3:hover {
+  opacity: 1;
+}
+
+.graph4 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 4600px;
+  margin-left: 1000px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph4:hover {
+  opacity: 1;
+}
+
+.graph5 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5050px;
+  margin-left: 420px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph5:hover {
+  opacity: 1;
+}
+
+.graph6 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 5050px;
+  margin-left: 1000px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph6:hover {
+  opacity: 1;
+}
+
+.graph7 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 7500px;
+  margin-left: 420px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph7:hover {
+  opacity: 1;
+}
+
+.graph8 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 7500px;
+  margin-left: 1000px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph8:hover {
+  opacity: 1;
+}
+
+.graph9 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 8000px;
+  margin-left: 420px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph9:hover {
+  opacity: 1;
+}
+
+.graph10 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 8000px;
+  margin-left: 1000px;
+  opacity: 0.3;
+
+  transition: opacity;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+}
+
+.graph10:hover {
+  opacity: 1;
+}
+
+/*막대 그래프*/
+.format0 {
+  margin-top: 2657px;
+  margin-left: 1050px;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 1;
+  height: 35px;
+  width: 100px;
+  background-image: linear-gradient(to right, #aaaaaa, #aaaaaa);
+
+  transition: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.format1 {
+  margin-top: 2747px;
+  margin-left: 1050px;
+  position: absolute;
+  opacity: 0.3;
+  z-index: 1;
+  height: 35px;
+  width: 280px;
+  background-image: linear-gradient(to right, #aaaaaa, #aaaaaa);
+
+  transition: color opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.format0:hover {
+  opacity: 1;
+  background-image: linear-gradient(to right, #6846ff, #c01861);
+}
+
+.format1:hover {
+  opacity: 1;
+  background-image: linear-gradient(to right, #6846ff, #c01861);
+}
+
+.F_TouchArea {
+  transition: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.F_TouchArea:hover {
+  opacity: 1;
+}
+
+/*터치 가능 영역*/
+.TouchArea {
+  opacity: 0;
+
+  width: 25px;
+  height: 300px;
+
+  transition: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.TouchArea:hover {
+  opacity: 1;
+}
+
+/*수치 표기 박스*/
+.Index {
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  height: 35px;
+  background-color: #f1f1f1;
+  border: 3px solid #6846ff;
+  border-radius: 7px;
+}
+
+/*수치 텍스트*/
+.textArea {
+  width: 50px;
+  height: 25px;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
+  line-height: 150%;
+  text-align: center;
+  color: #222222;
+}
+
+/*스크롤 숨기기*/
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*텍스트 애니메이션*/
+@keyframes TextVFX {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*그래프 애니메이션*/
+@keyframes GraphVFX {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
